@@ -140,4 +140,6 @@ print(pmo.evenCheck(mat)[1])
 ![image](https://user-images.githubusercontent.com/71393551/189524919-aed32588-6b9c-415e-a58a-33d7e5622813.png)
 ---
 
-Developed by Yash Seth (c) 2022
+<div align="center">
+   <b>Developed by Yash Seth (c) 2022</b>
+</div>
