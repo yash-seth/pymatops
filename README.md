@@ -47,7 +47,7 @@ pmo.randomMatrix(6,8)
 ```python
 import pymatops as pmo
 print("The random matrix generated: ")
-mat = pmo.randomMatrixDim(6,8) # retuns a 6*8 matrix with random values
+mat = pmo.randomMatrix(6,8) # retuns a 6*8 matrix with random values
 print("The sum of the matrix: ", pmo.matSum(mat))
 ```
    
