@@ -16,23 +16,43 @@ def visualize(matrix):
         print("----- "*ncol)
 
 
-def randomMatrix():
-    nrow = random.randint(1, 10)
-    ncol = random.randint(1, 10)
-    matrix = [[0 for i in range(ncol)] for j in range(nrow)]
-    for i in range(0, nrow):
-        for j in range(0, ncol):
-            matrix[i][j] = random.randint(-127, 128)
-    visualize(matrix)
-    return matrix
+# def randomMatrix():
+#     nrow = random.randint(1, 10)
+#     ncol = random.randint(1, 10)
+#     matrix = [[0 for i in range(ncol)] for j in range(nrow)]
+#     for i in range(0, nrow):
+#         for j in range(0, ncol):
+#             matrix[i][j] = random.randint(-127, 128)
+#     visualize(matrix)
+#     return matrix
 
-def randomMatrixDim(nrow, ncol):
-    matrix = [[0 for i in range(ncol)] for j in range(nrow)]
-    for i in range(0, nrow):
-        for j in range(0, ncol):
-            matrix[i][j] = random.randint(-127, 128)
-    visualize(matrix)
-    return matrix
+# def randomMatrixDim(nrow, ncol):
+#     matrix = [[0 for i in range(ncol)] for j in range(nrow)]
+#     for i in range(0, nrow):
+#         for j in range(0, ncol):
+#             matrix[i][j] = random.randint(-127, 128)
+#     visualize(matrix)
+#     return matrix
+
+def randomMatrix(nrow = None, ncol = None):
+    if(nrow == None and ncol == None):
+        nrow = random.randint(1, 10)
+        ncol = random.randint(1, 10)
+        matrix = [[0 for i in range(ncol)] for j in range(nrow)]
+        for i in range(0, nrow):
+            for j in range(0, ncol):
+                matrix[i][j] = random.randint(-127, 128)
+        visualize(matrix)
+        return matrix
+    elif(nrow!=None and ncol!=None):
+        matrix = [[0 for i in range(ncol)] for j in range(nrow)]
+        for i in range(0, nrow):
+            for j in range(0, ncol):
+                matrix[i][j] = random.randint(-127, 128)
+        visualize(matrix)
+        return matrix
+    elif(nrow==None or ncol==None):
+        print("Please provide both dimensions!")
 
 def zeroElements(matrix):
     zeroCounter = 0

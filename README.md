@@ -23,7 +23,7 @@ print("The dimension of the matrix is ", pmo.dim(mat))
 ![image](https://user-images.githubusercontent.com/71393551/189525289-eb6aac0d-6a2c-4f8a-9b49-942eb01164b3.png)
 ---
 
-### 3. randomMatrix - returns a matrix of random dimensions with random values
+### 3. randomMatrix - returns a matrix of random dimensions with random values if the function is called with no arguments
 ```python
 import pymatops as pmo
 print("The randomly generated matrix: ")
@@ -33,11 +33,11 @@ pmo.randomMatrix()
 ![image](https://user-images.githubusercontent.com/71393551/189525444-5258403a-63a9-4888-9141-5876c22d1534.png)
 ---
 
-### 4. randomMatrixDim - you pass dimensions to get a matrix of specified dimensions with random values
+### 4. randomMatrix - you can pass dimensions to get a matrix of specified dimensions with random values. Both row and col dimensions are required
 ```python
 import pymatops as pmo
 print("The random matrix of dimension 6*8 generated: ")
-pmo.randomMatrixDim(6,8)
+pmo.randomMatrix(6,8)
 ```
    
 ![image](https://user-images.githubusercontent.com/71393551/189525132-b32781b2-4555-4747-9c0d-1938fd2a0ba4.png)
