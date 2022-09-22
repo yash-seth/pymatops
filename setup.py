@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '1.1.0'
+VERSION = '1.3.0'
 DESCRIPTION = 'A Python package for Matrix Operations'
 with open("README.md", "r") as fh:
     long_description = fh.read()
