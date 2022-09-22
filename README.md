@@ -1,7 +1,16 @@
 # pymatops - A Python package for Matrix Operations
+
+
+[![Package Status](https://img.shields.io/badge/pypi-v1.1.0-blue)](https://pypi.org/project/pymatops/)
+[![Package Status](https://img.shields.io/badge/status-stable-brightgreen)](https://pypi.org/project/pandas/)
+
 ## Package Details
 The <b> *pymatops* </b> package is [available](https://pypi.org/project/pymatops/) on the official Python Package Index (PyPi) repository.
-It can be installed and used in your projects `pip install pymatops`.
+It can be installed and used in your projects by running the following command:
+```sh
+# you will need pip - Package Installer for Python
+pip install pymatops
+```
 
 ## Package Operations
 ### 1. visualize - visualize a matrix
