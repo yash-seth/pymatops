@@ -1,7 +1,7 @@
 # pymatops - A Python package for Matrix Operations
 
 
-[![Package Status](https://img.shields.io/badge/pypi-1.2.0-blue)](https://pypi.org/project/pymatops/)
+[![Package Status](https://img.shields.io/badge/pypi-1.3.0-blue)](https://pypi.org/project/pymatops/)
 [![Package Status](https://img.shields.io/badge/status-stable-brightgreen)](https://pypi.org/project/pandas/)
 
 ## Package Details
