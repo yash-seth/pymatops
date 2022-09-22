@@ -6,9 +6,8 @@
 
 ## Package Details
 The <b> *pymatops* </b> package is [available](https://pypi.org/project/pymatops/) on the official Python Package Index (PyPi) repository.
-It can be installed and used in your projects by running the following command:
+It can be installed and used in your projects by running the following command using `pip`
 ```sh
-# you will need pip - Package Installer for Python
 pip install pymatops
 ```
 
